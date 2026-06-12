@@ -1,5 +1,4 @@
 node_modules
-dist
 .DS_Store
 *.swp
 .git/*
@@ -94,8 +93,6 @@ node_modules/
 .pnp
 .pnp.js
 # Production build
-dist/
-dist-server/
 build/
 out/
 # Testing
