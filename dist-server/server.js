@@ -62,6 +62,7 @@ var import_vite2 = require("vite");
 var import_vite = require("vite");
 var vite_config_default = (0, import_vite.defineConfig)({
   base: "/AD-calcium-30th/",
+  build: { outDir: "docs" },
   server: {
     port: 5e3,
     host: "0.0.0.0",

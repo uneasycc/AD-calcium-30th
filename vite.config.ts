@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   base: '/AD-calcium-30th/',
+  build: { outDir: 'docs' },
   server: {
     port: 5000,
     host: '0.0.0.0',
